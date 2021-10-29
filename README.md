@@ -15,6 +15,6 @@
 4. **마스크를 착용하지 않은 학생을 파악하여 착용 권고 알림을 발송한다.**
 
 <br/><br/><br/>
-![학습된 이미지](https://gachonyws.github.io/assets/images/mask-detection/face_mask_detection_dataset.jpg)
+![학습된 이미지](https://gachonyws.github.io/assets/images/mask-detection/face_mask_detection_dataset.jpg)<br/><br/>
 위 사진이 기존 알고리즘에 학습된 이미지인데, **마스크의 색과 형태**가 일정합니다. 이를 일상생활에서 적용할 경우, 다양한 형태와 색의 마스크를 착용하는 학생들을 인식할 때 오류가 발생할 수 있으므로, 추가 학습이 필요하다고 판단하였습니다.
 <br/>추가 학습을 위하여 각 수업에 참여하는 학생의 학생증 사진을 *No Mask* 분류에, 수업 입장 시 마스크 착용 사진을 추가로 촬영하여 *Mask* 분류에 추가하는 방법을 생각해보았습니다. 
